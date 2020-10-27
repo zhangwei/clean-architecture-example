@@ -2,11 +2,11 @@ package com.slalom.example.domain.entity;
 
 public class User {
 
-	private String id;
-	private String email;
-	private String password;
-	private String lastName;
-	private String firstName;
+	private final String id;
+	private final String email;
+	private final String password;
+	private final String lastName;
+	private final String firstName;
 
 	private User(final String id, final String email, final String password, final String lastName, final String firstName) {
 		this.id = id;

@@ -6,9 +6,9 @@ import com.slalom.example.jug.JugIdGenerator;
 import com.slalom.example.usecase.CreateUser;
 import com.slalom.example.usecase.FindUser;
 import com.slalom.example.usecase.LoginUser;
-import com.slalom.example.usecase.port.IdGenerator;
-import com.slalom.example.usecase.port.PasswordEncoder;
-import com.slalom.example.usecase.port.UserRepository;
+import com.slalom.example.domain.port.IdGenerator;
+import com.slalom.example.domain.port.PasswordEncoder;
+import com.slalom.example.domain.port.UserRepository;
 
 public class VertxConfig {
 

@@ -1,4 +1,4 @@
-package com.slalom.example.usecase.exception;
+package com.slalom.example.domain.exception;
 
 public class UserValidationException extends RuntimeException {
 	public UserValidationException(final String message) {

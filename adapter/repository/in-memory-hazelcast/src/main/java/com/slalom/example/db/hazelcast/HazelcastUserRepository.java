@@ -3,11 +3,14 @@ package com.slalom.example.db.hazelcast;
 import com.hazelcast.core.HazelcastInstance;
 import com.slalom.example.db.hazelcast.model.UserDb;
 import com.slalom.example.domain.entity.User;
-import com.slalom.example.usecase.port.UserRepository;
+import com.slalom.example.domain.port.UserRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * The type Hazelcast user repository.
+ */
 public class HazelcastUserRepository implements UserRepository {
 
 	private static final HazelcastInstance HAZELCAST = Hazelcast.getInstance();

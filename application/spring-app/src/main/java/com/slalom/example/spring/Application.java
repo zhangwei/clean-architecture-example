@@ -1,11 +1,9 @@
 package com.slalom.example.spring;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@ComponentScan(value = {"com.slalom.example"})
-@EnableAutoConfiguration
+@SpringBootApplication
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
