@@ -9,8 +9,9 @@ module slalom.example.spring {
 	requires spring.boot.autoconfigure;
 	requires spring.context;
 	requires com.fasterxml.jackson.databind;
+    requires jackson.annotations;
 
-	exports com.slalom.example.spring;
+    exports com.slalom.example.spring;
 	exports com.slalom.example.spring.config;
 	exports com.slalom.example.spring.controller;
 	opens com.slalom.example.spring to spring.core, spring.beans;

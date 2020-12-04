@@ -1,0 +1,17 @@
+### Get user
+GET http://localhost:8080/users
+
+### Send POST request with json body
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+	"email": "test@test.com",
+	"password": "mypassword",
+	"lastName": "Doe",
+	"firstName": "John"
+}
+
+
+### Login
+GET http://localhost:8080/login?email=test@test.com&password=mypassword
