@@ -7,7 +7,7 @@ plugins {
 ext.moduleName = 'slalom.example.vertx'
 
 dependencies {
-	compile(
+	implementation(
 		project(':config'),
 		project(':usecase'),
 		project(':controller'),
