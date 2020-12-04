@@ -7,6 +7,9 @@ import com.slalom.example.domain.port.PasswordEncoder;
 import com.slalom.example.domain.port.UserRepository;
 import com.slalom.example.usecase.validator.UserValidator;
 
+/**
+ * @author zhangwei
+ */
 public final class CreateUser {
 
 	private final UserRepository repository;

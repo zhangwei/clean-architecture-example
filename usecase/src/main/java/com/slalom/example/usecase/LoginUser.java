@@ -7,6 +7,7 @@ import com.slalom.example.domain.port.UserRepository;
 
 /**
  * The type Login user.
+ * @author zhangwei
  */
 public final class LoginUser {
 

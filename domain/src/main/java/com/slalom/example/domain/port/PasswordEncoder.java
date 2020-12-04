@@ -2,6 +2,7 @@ package com.slalom.example.domain.port;
 
 /**
  * The interface Password encoder.
+ * @author zhangwei
  */
 public interface PasswordEncoder {
 

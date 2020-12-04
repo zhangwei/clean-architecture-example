@@ -16,7 +16,3 @@ dependencies {
 }
 
 mainClassName = 'com.slalom.example.vertx.RestVertxApplication'
-
-shadowJar {
-	classifier = 'fat'
-}

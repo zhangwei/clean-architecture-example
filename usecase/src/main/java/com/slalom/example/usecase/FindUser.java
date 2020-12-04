@@ -7,6 +7,7 @@ import java.util.Optional;
 
 /**
  * The type Find user.
+ * @author zhangwei
  */
 public final class FindUser {
 

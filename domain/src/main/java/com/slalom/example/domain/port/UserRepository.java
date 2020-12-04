@@ -6,6 +6,7 @@ import java.util.Optional;
 
 /**
  * The interface User repository.
+ * @author zhangwei
  */
 public interface UserRepository {
 

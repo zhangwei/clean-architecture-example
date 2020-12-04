@@ -9,6 +9,9 @@ import com.slalom.example.usecase.FindUser;
 import com.slalom.example.usecase.LoginUser;
 import com.slalom.example.uuid.UuidGenerator;
 
+/**
+ * @author zhangwei
+ */
 public class SpringConfig {
 
 	private final UserRepository userRepository = new InMemoryUserRepository();
